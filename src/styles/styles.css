@@ -137,6 +137,11 @@ a:where([class]) {
   display: inline-flex;
 }
 
+a {
+  text-decoration-color: white;
+  color: white;
+}
+
 /**
   Курсор-рука при наведении на элемент
  */
@@ -200,6 +205,9 @@ svg * {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+body {
+  background: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

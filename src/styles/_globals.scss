@@ -1,0 +1,77 @@
+
+
+:root{
+
+  // Шрифты
+
+  --font-family: "Urbanist", sans-serif;
+
+  --color-grey_60: #999999 ;
+  --color-grey_10: #1A1A1A;
+  --color-grey_08: #141414;
+
+  --color-white: #FFFFFF;
+
+  --color-purple: #703BF7;
+  --color-purple-light: #A685FA;
+
+
+  --background-color-grey_08: #141414;
+
+  // Контейнер
+
+  --container-width: 1600px;
+  --container-padding: 16px;
+
+  // Кнопки
+
+  --border-radius: 10px;
+  --padding-button: 18px 24px;
+
+
+    /* Серые */
+
+  --color-grey_15: #262626;
+
+  --border: 1px solid var(--color-grey_15);
+
+
+  // Скорость анимации
+
+  --transition-duration: 0.2s;
+
+}
+
+.container{
+
+  width: 100%;
+  margin-inline: auto;
+
+  max-width: calc(var(--container-width) + var(--container-padding) * 2);
+  padding-inline: var(--container-padding);
+
+}
+
+
+.button-purple{
+
+
+  background-color: var(--color-purple);
+  padding: var(--padding-button);
+
+  border-radius: var(--border-radius);
+
+  font-weight: 500;
+  line-height: 1.5;
+
+}
+
+.button-grey{
+
+  border: var(--border);
+  border-radius: var(--border-radius);
+
+  background-color: var(--color-grey_10);
+  padding: var(--padding-button);
+
+}
